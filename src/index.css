@@ -11,3 +11,156 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.error {
+  color: red;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  width: 300px; /* Adjust as needed */
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='number'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='number'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button-green {
+  background-color: green;
+  color: white;
+}
+
+.submit-button-red {
+  background-color: red;
+  color: white;
+}
+
+.submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+/* SignupForm.css */
+
+.signup-form-container {
+  background-image: url('https://ik.imagekit.io/ikmedia/backlit.jpg');
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  /* Add additional styling for form container if needed */
+}
+
+/* Additional CSS for input fields, button, etc. */
+form{
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+}
+
+.creating {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+
+}
+
+/* .creating > form {
+  width: 70%;
+  border: 1px solid  #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+  background-image: url('https://ik.imagekit.io/ikmedia/backlit.jpg');
+} */
